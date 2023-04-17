@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Cookies - JS</title>
+	<meta name="author" content="Isabela Sophia Campos da Rocha">
+	<meta name="description" content="Criação de Cookies com JavaScript">
+	<meta name="keywords" content="javascript, cookies, html, programção, atividade, aula">
+	<script type="text/javascript">
+		function lerCookie() {
+			alert(document.cookie);
+		}
+		function criarCookie() {
+			var exdate=new Date();
+			exdate.setDate(exdate.getDate() + 1 );
+		
+			var nome = document.getElementById("txtNome");
+			document.cookie = "cookie01="+nome+"; expires="+exdate.toUTCString();
+			alert('Cookie salvo com sucesso!');
+		}
+	</script>
+	</head>
+	<body>
+		<input type="text" name="txtNome"/>
+		<input type="button" value="Ver Cookies" onclick="lerCookie()" name="btnLer"/>
+		<input type="button" value="Gravar Cookie" onclick="criarCookie()" name="btnGravar"/>
+	</body>
+</html>

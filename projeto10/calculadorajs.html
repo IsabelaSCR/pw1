@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Calculadora</title>
+		<meta name="author" content="Kauan Rajo Félix Bonfim, Isabela Sophia Campos da Rocha">
+		<meta name="description" content="Calculadora de Operações Básicas">
+		<meta name="keywords" content="html, css, javascript, atividade, educação, programação web, calculadora">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script type="text/javascript">
+			alert ("Bem-vindo(a) à Calculadora de Operações Básicas, digite os valores que deseja calcular e depois confira os resultados das quatro operações feitas!");
+			
+			var valor01 = Number(window.prompt("Digite o valor01: ")) 
+			var valor02 = Number(window.prompt("Digite o valor02: "))
+
+
+			
+		</script>
+
+	</head>
+	<body bgcolor="#000">
+
+		<div class="container">
+			<fieldset>
+			   <legend>Calculadora</legend>
+			   
+				<div class="valor01">
+					<h2>Valor 01:</h2>
+				  
+					<script type="text/javascript">
+						document.write("O primeiro valor digitado foi "+valor01+".");
+					</script>
+				</div>
+				<br>
+				<div class="valor02">
+					<h2>Valor 02:</h2>
+			  
+					<script type="text/javascript">
+						document.write("O segundo valor digitado foi "+valor02+".");
+					</script>
+				</div>
+				<br>
+				<div class="resultado">
+					<h2 align="center">Resultados:</h2>
+					<div class="res">
+						<script type="text/javascript">
+							var soma=(valor01+valor02);
+							document.write("▷ Soma: <br>"+valor01+" + "+valor02+" = "+soma);
+						</script>
+					</div>
+				   
+						
+					<div class="res">
+					<script type="text/javascript">
+							var subtracao=(valor01-valor02);
+							document.write("▷ Subtração: <br>"+valor01+" - "+valor02+" = "+subtracao);
+					</script>
+					</div>
+					<div class="res">
+					<script type="text/javascript">
+						var multiplicacao=(valor01*valor02);
+							document.write("▷ Multiplicação: <br>"+valor01+" x "+valor02+" = "+multiplicacao);
+					</script>
+					</div>
+					<div class="res">
+					<script type="text/javascript">
+						var divisao=(valor01/valor02);
+							document.write("▷ Divisão: <br>"+valor01+" / "+valor02+" = "+divisao);
+				
+					</script>
+					</div>
+				</div>
+			</fieldset>
+		
+		</div>
+   </body>
+</html>

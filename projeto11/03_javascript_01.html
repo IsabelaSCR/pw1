@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Login - JavaScript</title>
+		<meta name="author" content="Isabela Sophia Campos da Rocha">
+		<meta name="description" content="Formulário para Login do usuário">
+		<meta name="keywords" content="formulário, login, javascript, html, atividade, educação, aula, programação">
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<font face="arial">
+			<form name="frmLogin" method="post" action="03_javascript_02.html" align="center">
+				<fieldset>
+					<legend align="center">FORMULÁRIO DE LOGIN</legend>
+					<p>Usuário: <input type="text" name="usuario" id="usuario"/></p>
+					<p>Senha: <input type="password" name="senha" id="senha"/></p>
+					<p>Perfil:
+						<select name="perfil">
+							<option value="">Selecione o perfil</option>
+							<option value="aluno">Aluno</option>
+							<option value="responsável">Responsável</option>
+							<option value="professor">Professor</option>
+							<option value="administrador">Administrador</option>
+						</select>
+					</p>
+					<p><label><input type="submit" name="sbt" onclick="return validar()" value="ENTER"/></label></p>
+				</fieldset>
+			</form>
+		</font>
+	</body>
+</html>

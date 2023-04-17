@@ -1,0 +1,66 @@
+.container {
+	font-family: verdana;
+	font-size: 1em;
+	width: 1200px;
+	float: center;
+	margin: 0 auto;
+}
+
+fieldset {
+	background-color: #191a1c;
+	margin: 10px auto 10px auto;
+	width: 40;
+	border: solid white 1px;
+	padding: 3%;
+}
+
+legend {
+	color: #fff;
+	padding: 6px;
+	margin: 10px;
+	border: solid black 1px;
+	font-size: 90%;
+	font-weight: bold;
+	background-color: #e8e8e8;
+	color: #000;
+ 
+ }
+ 
+ .valor01 {
+	background-color: #202124;
+	border: 1px solid #fff;
+	width: 90%;
+	height: 90%;
+	padding: 20px;
+	color: #fff;
+ }
+ 
+ .valor02 {
+	background-color: #202124;
+	border: 1px solid #fff;
+	width: 90%;
+	height: 90%;
+	padding: 20px;
+	color: #fff;
+ }
+ 
+ .resultado {
+	background-color: #174ea6;
+	border: 1px solid #fff;
+	width: 90%;
+	height: 90%;
+	padding: 20px;
+	line-height: 1.7;
+	color: #fff;
+ }
+ 
+ .res {
+	width: 240px;
+	height: 100px;
+	border: 1px solid #fff;
+	margin-top: 30px;
+	margin-left: 0 auto;
+	float: left;
+	text-align: center;
+	vertical-align: center;
+}
