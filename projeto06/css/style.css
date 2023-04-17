@@ -1,0 +1,133 @@
+.container {
+	border: 1px solid #000;
+	background-color: #dcd;
+	width: 1200px;
+	height: 1800px;
+	margin: 0 auto;
+}
+
+.tophome {
+	background-color: #F5DEB3;
+	width: 1190px;
+	height: 100px;
+	margin: 5px;
+}
+
+.logotipo {
+	background-color: #FF69B4;
+	width: 98px;
+	height: 98px;
+	margin: 1px;
+	float: left;
+}
+
+.telefone {
+	background-color: #FF69B4;
+	width: 1088px;
+	height: 69px;
+	margin: 1px;
+	float: right;
+	text-align: center;
+}
+
+.endereco {
+	background-color: #ADFF2F;
+	width: 1088px;
+	height: 29px;
+	margin: 1px;
+	float: right;
+	text-align: center;
+	
+}
+
+.banner {
+	background-color: #87CEEB;
+	width: 1190px;
+	height: 400px;
+	margin: 5px;
+}
+
+.menu {
+	background-color: #FF69B4;
+	width: 1190px;
+	height: 80px;
+	margin: 5px;
+}
+
+.conteudo {
+	background-color: #ADFF2F;
+	width: 1190px;
+	height: 1000px;
+	margin: 5px;
+}
+
+.quadro {
+	background-color: #fff;
+	width: 1180px;
+	height: 300px;
+	margin: 5px;
+	float: left;
+}
+
+.quadropromocao {
+	background-color: #ADFF2F;
+	width: 287px;
+	height: 290px;
+	border: 1px solid #000;
+	margin-top: 2px;
+	margin-left: 5px;
+	float: left;
+}
+
+.quadroparceiro {
+	background-color: #000;
+	width: 390px;
+	height: 147px;
+	margin-top: 2px;
+	margin-left: 2px;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+
+.noticia {
+	background-color: #fff;
+	width: 1180px;
+	height: 370px;
+	margin: 5px;
+	float: left;
+}
+
+.quadronoticia {
+	background-color: #EE82EE;
+	width: 582px;
+	height: 360px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+.rodape {
+	background-color: #EE82EE;
+	width: 1190px;
+	height: 190px;
+	margin: 5px;
+}
+
+.rodapemap {
+	background-color: #87CEEB;
+	width: 1180px;
+	height: 155px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+.rodapecopy {
+	background-color: #87CEEB;
+	width: 1180px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
