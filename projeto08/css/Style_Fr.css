@@ -1,0 +1,108 @@
+.body {
+	background-color: black;
+}
+
+.container {
+		border: 1px solid #000;
+		width: 1200px;
+		height: 1800px;
+		margin: 0 auto;
+}
+
+.titulo {
+        padding: .5px;
+        margin: 0 auto;
+	width: 1000px;
+	height: auto;
+        border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-family: Calibri;
+	font-size: 25px;
+}
+
+.elementoimg {
+		width: 300px;
+		height: 400px;
+		text-align: center;
+		color: #fff;
+		margin-top: 30px;
+		margin-left: 150px;
+}
+
+.texto {
+		color: #fff;
+		width: 500px;
+		height: 300px;
+		margin-left: 550px;
+		position: absolute;
+		top: 90px;
+		font-family: Arial, Verdana, Sans, Times New Roman;
+		font-size: 15px;
+}
+
+.aplicacao {
+		color: #fff;
+		width: 1000px;
+		height:	100px;
+		font-family: Arial, Verdana, Sans, Times New Roman;
+		margin-left: 100px;
+		font-size: 15px;
+}
+
+.distribuicao {
+		color: #fff;
+		width: 1000px;
+		height:	100px;
+		font-family: Arial, Verdana, Sans, Times New Roman;
+		font-size: 20px;
+		margin-left: 100px;
+		margin-top: 20px;
+}
+
+.orbital {
+		color: #fff;
+		width: 250px;
+		height: 250px;
+		font-family: Arial, Verdana, Sans, Times New Roman;
+		margin-top: 40px;
+		margin-left: 100px;
+}
+
+.propriedade {
+		color: #fff;
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		top: 729px;
+		left: 1025px;
+		font-family: Arial, Verdana, Sans, Times New Roman;
+		font-size: 15px;
+}
+
+.isotopo {
+		color: #fff;
+		width: 350px;
+		height: 250px;
+		position: absolute;
+		top: 1050px;
+		margin-left: 50px;
+}
+
+.isotopo2 {
+		color: #fff;
+		width: 350px;
+		height: 250px;
+		position: absolute;
+		top: 1300px;
+		margin-left: 450px;
+}
+
+.homebutton {
+		color: #fff;
+		width: 200px;
+		height: 50px;
+		position: absolute;
+		top: 1700px;
+		margin-left: 550px;
+}

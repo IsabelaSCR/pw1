@@ -1,0 +1,228 @@
+.container {
+	font-family: arial;
+	width: 1200px;
+	height: 1800px;
+	margin: 0 auto;
+}
+
+.tophome {
+	width: 1190px;
+	height: 100px;
+	margin: 5px;
+}
+
+.logotipo {
+	width: 98px;
+	height: 98px;
+	margin: 1px;
+	float: left;
+}
+
+img.logo {
+	border: 1px solid #000;
+	background-color: #8d4000;
+}
+
+.telefone {
+	border: 1px solid #000;
+	background-color: #f6d091;
+	width: 1086px;
+	height: 67px;
+	margin: 1px;
+	float: right;
+	text-align: center;
+}
+
+.endereco {
+	border: 1px solid #000;
+	background-color: #f6d091;
+	width: 1086px;
+	height: 27px;
+	margin: 1px;
+	float: right;
+	text-align: center;
+	
+}
+
+.banner {
+	background-color: #f6d091;
+	width: 1190px;
+	height: 400px;
+	margin: 5px;
+}
+
+.tituloban {
+	background-color: #8d4000;
+	font-family: verdana;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	float: center;
+	margin-top: 7px;
+}
+
+img.ban {
+	margin-top: 40px;
+	margin-left: 60px;
+	float: left;
+}
+
+.intro {
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 550px;
+	height: 150px;
+	text-align: justify;
+	font-family: verdana;
+        font-size: medium;
+        line-height: 1.7;
+	color: #000;
+	float: left;
+}
+
+.quadromenu {
+	background-color: #f6d091;
+	width: 1190px;
+	height: 80px;
+	float: center;
+	margin: 5px;
+      
+}
+
+.link {	
+        background-color: #8d4000;
+        border-radius: 20px 4px 20px 4px;
+        font-size: 16px;
+        font-family: verdana;
+	height: 37px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        text-align: center;
+        margin-left: 21px;
+        margin-top: 10px;
+        display: block;
+        float: left;
+        color: #fff;
+        text-decoration: none;
+}
+
+.link:hover {
+        background-color: #e2ab51;
+        color: #8d4000;
+        cursor: pointer;
+}
+
+.conteudo {
+	width: 1190px;
+	height: 1000px;
+	margin: 5px;
+}
+
+.quadro {
+	width: 1180px;
+	height: 300px;
+	margin: 5px;
+	float: left;
+}
+
+.quadropromocao {
+	width: 287px;
+	height: 290px;
+	border: 1px solid #000;
+	margin-top: 2px;
+	margin-left: 5px;
+	float: left;
+}
+
+img.promocao {
+	border: 1px solid #000;
+	margin: 4px;
+}
+
+.descricao {
+	background-color: #f6d091;
+	text-align: center;
+	font-family: verdana;
+	font-size: medium;
+}
+
+.preco {
+	font-size: 30px;
+	text-align: center;
+}
+
+.noticia {
+	background-color: #f6d091;
+	width: 1180px;
+	height: 370px;
+	margin: 5px;
+	float: left;
+}
+
+.quadronoticia {
+	border: 1px solid #000;
+	width: 581px;
+	height: 360px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+img.not {
+	margin: 3px;
+	float: left;
+}
+
+.resumo {
+        font-family: arial;
+}
+
+.quadroparceiro {
+	background-color: #f6d091;
+	width: 388px;
+	height: 147px;
+	margin-top: 2px;
+	margin-left: 2px;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+
+img.parceiro {
+	margin-top: 3px;
+	margin-left: 2px;
+}
+
+.rodape {
+	width: 1190px;
+	height: 190px;
+	margin: 5px;
+}
+
+.rodapemap {
+	width: 1180px;
+	height: 155px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+.colunapar {
+	background-color: #f6d091;
+	width: 310px;
+	height: 135px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+.rodapecopy {
+	background-color: #8d4000;
+	width: 1180px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	color: #fff;
+}

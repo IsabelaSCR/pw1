@@ -1,0 +1,51 @@
+body {
+	background-color: black;
+}
+
+.container {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.titulo {
+        padding: .5px;
+        margin: 0 auto;
+	width: 1000px;
+	height: auto;
+        border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-family: Calibri;
+	font-size: 25px;
+}
+
+.descricao {
+	font-family: Arial, Verdana, Sans, Times New Roman;
+	font-size: medium;
+	width: 960px;
+	height: 500px;
+	margin-top: 80px;
+        margin: 0 auto;
+	text-align: justify;
+	color: #fff;
+	
+}
+
+.elementos {
+	width: 950px;
+	height: 570px;
+	margin-top: 15px;
+        margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+.quadroelemento {
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 125px;
+	float: left;
+	color: #fff;
+}
