@@ -1,0 +1,13 @@
+	var data = new Date();
+	var dia = data.getDate();
+	var mes = data.getMonth();
+	var ano4 = data.getFullYear();
+	var hora = data.getHours();
+	var min = data.getMinutes();
+	var seg = data.getSeconds();
+	var str_data = dia + "/" + (mes+1) + "/" + ano4;
+	var str_hora = hora + ":" + min + ":" + seg;
+	var idioma = "";
+	var sistema = "";
+	idioma = "O idioma utilizado é " + navigator.language + ".";
+	sistema = "O sistema utilizado é (plataforma-versão-navegador) " + navigator.userAgent + ".";

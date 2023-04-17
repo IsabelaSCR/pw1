@@ -1,0 +1,241 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #555;
+    color: #494949;
+    font-size: 16px;
+}
+
+#header {
+    width: 100%;
+    background-color: #c3c3c3;
+    align-items: end;
+}
+
+#header .container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+
+#header .bg-light {
+    background-color: #c3c3c3;
+}
+.navbar-nav{
+    width: 100%;
+}
+
+#header .navbar-collapse {
+    width: auto;
+    background-color: #c3c3c3;
+    display:flex;
+    justify-content: center;
+}
+
+#header .nav-item:active{
+    color: #1c1c1c;
+}
+
+#header .nav-item{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#header .nav-link{
+    text-transform: capitalize;
+    font-size: 1.25em;
+    border-bottom: solid 1px #68686852;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 1px #38a745;
+    color:#38a745;
+}
+
+.dropdown-item{
+    border-left: solid 5px transparent;
+}
+
+.dropdown-item:hover{
+    border-left: solid 5px #97d3a5;
+}
+
+#header .info{
+    padding-right: 13%;
+    padding-top: 7%;
+
+}
+
+#header .info button{
+    float: right;
+}
+
+#header .info .btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.space-between { 
+    justify-content: space-between; 
+}  
+
+.flex-item{
+    flex: auto;
+}
+
+.container{
+    margin: 0 auto;
+ 
+}
+
+#carouselExamplesControls .carousel-item{
+    width: 100%;
+
+}
+
+.destaques{
+    text-align: center;
+    color: #38a745;
+    outline: 1px solid #38a745;
+    background-color: #38a74520;
+    padding: 15px;
+}
+
+#cards{
+    margin-top: 35px;
+    width: 100%;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.card{
+    max-width: 14rem;
+    min-height: 32rem;
+    float: left;
+    font-size: 13px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    color: #494949;  
+}
+
+.card h5{
+
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#imgCard{
+    min-height: 21rem;
+}
+
+
+.form{
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonLogin a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-group input{
+    background-color: #d9edf7;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #38a745;
+    border-color: #38a745;
+}
+
+.quadro{
+    margin: 0 auto;
+    width: 85%;
+    display: block;
+    background-color: #576957;
+    padding: 4rem;
+    align-items: center;
+}
+
+.container .quadrobranco{
+    margin: 0 auto;
+    width: 85%;
+    display: block;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+}
+
+#tooltip{
+    position:relative;
+}
+
+#tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 0%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#tooltip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+  #tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+#cardSobre{
+    width: 100%;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.card-body{
+    width: 100%;
+}
+
+.card-header{
+    height: 40px;
+}

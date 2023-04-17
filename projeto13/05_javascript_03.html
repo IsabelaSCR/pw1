@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+		<title>Login Concluído</title>
+		<meta name="author" content="Isabela Sophia Campos da Rocha">
+		<meta name="description" content="Formulário para Login do usuário">
+		<meta name="keywords" content="formulário, login, javascript, html, atividade, educação, aula, programação">
+
+
+        <script type="text/javascript">
+            function lerCookie() {
+
+            }
+        </script>
+
+    </head>
+    <body onload="lerCookie()">
+        <script type="text/javascript">
+            var valor = document.cookie.split("=");
+            document.write("<p align='center'>Seja bem vindo "+valor[2]+"(a) "+valor[1]+", ");
+            document.write(" você se logou no dia "+valor[3]+" ");
+            document.write(" às "+valor[4]+"!</p>")
+        </script>
+        
+    </body>
+</html>
+
+

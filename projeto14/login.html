@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+    <title>On-livro | Login</title>
+  </head>
+  <body>
+    
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">          
+                <div class="collapse navbar-collapse w-100 flex-container space-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <div class="flex-item">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="imagens/logo.png" class="img-fluid">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                       
+                        <div class="flex-item">
+                            <li class="nav-item">
+                                <div class="info">
+                                    <button type="button" class="btn btn-secondary"><a href="cadastro.html">Cadastre-se</a></button>
+                                    <small id="emailHelp" class="form-text text-muted">Não possui um login?</small>
+
+                                </div>
+                            </li>
+                        </div>
+                        
+                        </li>
+                    </ul>
+                </div>
+            </nav>   
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="quadro">
+    <form name="frmLogin" id="frmLogin" method="post" action="index1.html">
+         <div class="form-group">
+                <label for="validationCustomUsername">Nome de usuário</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg></span>
+                  </div>
+                  <input type="text" name="validationCustomUsername" class="form-control" id="validationCustomUsername" placeholder="Insira seu nome de usuário" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Por favor preencha o campo.
+                  </div>
+                </div>
+              </div>   
+        <div class="form-group">
+                <label for="validationCustom02">Senha</label>
+                <input type="password" name="exampleInputPassword1" class="form-control" id="exampleInputPassword1" placeholder="Insira sua senha" value="" required>
+                <div class="invalid-feedback">
+                    Por favor preencha o campo.
+                </div>
+              </div>
+              
+              <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Lembrar senha</label>
+              </div>
+            </div>
+        <br>
+        <button type="submit" class="btn btn-primary" id="buttonLogin" name="sbt" onclick="return validar()" value="ENVIAR">Entrar</button>
+    </form>
+    
+    <script>
+          (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+              var forms = document.getElementsByClassName('needs-validation');
+              var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                }, false);
+              });
+            }, false);
+          })();
+    </script>
+    
+    </div>
+
+            
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

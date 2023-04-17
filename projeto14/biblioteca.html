@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css">
+    
+        <title>On-livro | Biblioteca</title>
+      </head>
+
+
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+               
+               
+                <div class="collapse navbar-collapse w-100 flex-container space-between" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <div class="flex-item">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="imagens/logo.png" class="img-fluid">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="flex-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                            </svg>
+                            Home
+                        </a>
+                    </li>
+                    </div>
+                    <div class="flex-item">
+                        <li class="nav-item">
+                        <a class="nav-link" href="quemsomos.html">
+                            Sobre
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown">
+
+                    </div>
+                    <div class="flex-item">
+                        <li class="nav-item active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gênero
+                                <span class="sr-only">(Página Atual)</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                               <a class="dropdown-item" href="#aventura">Aventura</a>
+                                <a class="dropdown-item" href="#biografia">Biografia</a>
+                                <a class="dropdown-item" href="#infantil">Infantil</a>
+                                <a class="dropdown-item" href="#suspense">Suspense</a>
+                                <a class="dropdown-item" id="tooltip" href="#ficcao" disabled>Ficção Científica<span class="tooltiptext">Desabilitado</span></a>
+                                <a class="dropdown-item" id="tooltip" href="#terror" disabled>Terror<span class="tooltiptext">Desabilitado</span></a>
+                                <a class="dropdown-item" id="tooltip" href="#fantasia" disabled>Fantasia<span class="tooltiptext">Desabilitado</span></a>
+
+                            
+                            </div>
+                        </li>
+                    </div>
+                    <div class="flex-item">
+                    <li class="nav-item">
+                   
+                        <nav class="navbar navbar-light">
+                            
+                            <form class="form-inline" name="frmLogin" method="post" action="biblioteca.html">
+                                <input class="form-control mr-sm-2" type="search" placeholder="O que você procura?" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                                    </svg>
+                                    Pesquisar
+                                </button>
+                            </form>
+                    
+                            
+                      </nav>
+                   
+                   
+
+                        <div class="info">
+                        <a  href="login.html"><button type="button" class="btn btn-secondary">Log-in</button></a>
+                        </div>
+                    </li>
+                    </div>
+                </ul>
+                </div>
+            </nav>
+            </div>           
+        </div>
+        
+    <div class="container" style="display: flex; flex-direction: column;">
+
+        <section id="aventura">
+            <div id="cards">
+            <h2 class="destaques">Aventura</h2>
+            
+            <div class="card">
+                <img src="imagens/a volta ao mundo.png" id="imgCard" class="img-fluid" alt="A Volta ao Mundo em 80 dias">
+                <div class="card-body">
+                    <h5 class="card-title">A Volta ao Mundo em 80 dias</h5>
+                    <p class="card-text">Júlio Verne</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+           
+            <div class="card">
+                <img src="imagens/hugo.png" id="imgCard" class="img-fluid" alt="A Invenção de Hugo Cabret">
+                <div class="card-body">
+                    <h5 class="card-title">A Invenção de Hugo Cabret</h5>
+                    <p class="card-text">Brian Selznick</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="imagens/dom quixote.png" id="imgCard" class="img-fluid" alt="Dom Quixote">
+                <div class="card-body">
+                    <h5 class="card-title">Dom Quixote</h5>
+                    <br>
+                    <p class="card-text">Miguel de Cervantes</p>
+                    
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="imagens/sherlock.png" id="imgCard" class="img-fluid" alt="As Aventuras de Sherlock Holmes">
+                <div class="card-body">
+                    <h5 class="card-title">As Aventuras de Sherlock Holmes</h5>
+                    <p class="card-text">Arthur Conan Doyle</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <br>
+       
+
+        <section id="biografia">
+            <div id="cards">
+            <h2 class="destaques">Biografia</h2>
+            
+            <div class="card">
+                <img src="imagens/clarice.png" id="imgCard" class="img-fluid" alt="Clarice - Uma vida que se conta">
+                <div class="card-body">
+                    <h5 class="card-title">Clarice - Uma vida que se conta</h5>
+                    <p class="card-text">Nádia Battella Gotlib</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+           
+            <div class="card">
+                <img src="imagens/martin luther king.png" id="imgCard" class="img-fluid" alt="A autobiografia de Martin Luther King">
+                <div class="card-body">
+                    <h5 class="card-title">A autobiografia de Martin Luther King</h5>
+                    <p class="card-text">Martin Luther King Jr</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="imagens/anne frank.png" id="imgCard" class="img-fluid" alt="O Diário de Anne Frank">
+                <div class="card-body">
+                    <h5 class="card-title">O Diário de Anne Frank</h5>
+                    <p class="card-text">Anne Frank</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="imagens/a teoria de tudo.png" id="imgCard" class="img-fluid" alt="A Teoria de Tudo">
+                <div class="card-body">
+                    <h5 class="card-title">A Teoria de Tudo</h5>
+                    <br>
+                    <p class="card-text">Jane Hawking</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <br>
+
+        <section id="infantil">
+            <div id="cards">
+            <h2 class="destaques">Infantil</h2>
+            
+            <div class="card">
+                <img src="imagens/o fantasma sinistro.png" id="imgCard" class="img-fluid" alt="O Fantasma Sinistro">
+                <div class="card-body">
+                    <h5 class="card-title">O Fantasma Sinistro</h5>
+                    <p class="card-text">Terry Deary</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+           
+            <div class="card">
+                <img src="imagens/gulliver.png" id="imgCard" class="img-fluid" alt="As Viagens de Gulliver">
+                <div class="card-body">
+                    <h5 class="card-title">As Viagens de Gulliver</h5>
+                    <p class="card-text">Jonathan Swift</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="imagens/alice.png" id="imgCard" class="img-fluid" alt="Alice no País das Maravilhas">
+                <div class="card-body">
+                    <h5 class="card-title">Alice no País das Maravilhas</h5>
+                    <p class="card-text">Lewis Carrol</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/os tres mosq.png" id="imgCard" class="img-fluid" alt="Os Três Mosqueteiros">
+                <div class="card-body">
+                    <h5 class="card-title">Os Três Mosqueteiros</h5>
+                    <p class="card-text">Alexandre Dumas</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <br>
+        <section id="suspense">
+            <div id="cards">
+            <h2 class="destaques">Suspense</h2>
+         
+            <div class="card">
+                <img src="imagens/estou pensando em acabar com tudo.png" id="imgCard" class="img-fluid" alt="Eu estou pensando em acabar com tudo">
+                <div class="card-body">
+                    <h5 class="card-title">Eu estou pensando em acabar com tudo</h5>
+                    <p class="card-text">Santiago Nazarian</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+           
+            <div class="card">
+                <img src="imagens/o silencio dos inocentes.png" id="imgCard" class="img-fluid" alt="O Silêncio dos Inocentes">
+                <div class="card-body">
+                    <h5 class="card-title">O Silêncio dos Inocentes</h5>
+                    <p class="card-text">Thomas Harris</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="imagens/frankenstein.png" id="imgCard" class="img-fluid" alt="Frankenstein">
+                <div class="card-body">
+                    <h5 class="card-title">Frankenstein</h5>
+                    <br>
+                    <p class="card-text">Marry Shelley</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/it.png" id="imgCard" class="img-fluid" alt="IT - A Coisa">
+                <div class="card-body">
+                    <h5 class="card-title">IT - A Coisa</h5>
+                    <br>
+                    <p class="card-text">Stephen King</p>
+                    <a href="" class="btn btn-primary" id="tooltip">Começar a ler<span class="tooltiptext">Desabilitado</span></a></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <br>
+        <section id="ficcao">
+            <div id="cards">
+            <h2 class="destaques">Ficção Científica</h2>
+           
+            
+            </div>
+        </section>
+        <br>
+        <section id="terror">
+            <div id="cards">
+            <h2 class="destaques">Terror</h2>
+            
+            
+            </div>
+        </section>
+        <br>
+        <section id="fantasia">
+            <div id="cards">
+            <h2 class="destaques">Fantasia</h2>
+            
+            
+            </div>
+        </section>
+        
+    </div>      
+   
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+</body>
+</html>
