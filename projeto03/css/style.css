@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	border:0;
+}
+
+body, input, select, textarea, button {
+	font-family: verdana;
+	font-size: 1em;
+}
+
+.campo {
+	margin-bottom: 1em;
+}
+
+.campo label {
+	margin-bottom: 0.2em;
+	color: #666;
+	display: block;
+}
+
+fieldset.grupo .campo {
+	float: left;
+	margin-right: 1em;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+	padding: 0.2em;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 2px rgba (0, 0, 0, 0.2);
+	display: block;
+}
+
+.campo select option {
+	padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+	background: #ffc;
+}
+
+.campo label.escolha {
+	color: #000;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.botao {
+	font-size: 1.5em;
+	background: #f90;
+	border: 0;
+	margin-bottom: 1em;
+	color: #fff;
+	padding: 0.2em 0.6em;
+	box-shadow: 2px 2px 2px rgba (0, 0, 0, 0.2);
+	text-shadow: 1px 1px 1px rgba (0, 0, 0, 0.5);
+}
+
+.botao:hover {
+	background: #fb0;
+	box-shadow: inset 2px 2px 2px rgba (0, 0, 0, 0.2);
+	text-shadow: none;
+}
+
+.centro {
+	margin: 0 auto;
+	width: 600px;
+}

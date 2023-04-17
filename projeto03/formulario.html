@@ -1,0 +1,73 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Criando Formulário
+		</title>
+		<meta name="author" content="Isabela Sophia Campos da Rocha">
+		<meta name="description" content="formulario com html">
+		<meta name="keywords" content="atividade, formulario, html, programação, web, educação">
+	</head>
+	<body>
+		<form action="#" method="post">
+			<fieldset>
+				<fieldset class="grupo">
+					<div class="campo">
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome">
+					</div>
+					<div class="campo">
+						<label for="snome">Sobrenome</label>
+						<input type="text" name="snome" id="snome">
+					</div>
+				</fieldset>
+				<div class="campo">
+					<label class="escolha">
+						<input type="radio" name="sexo" value="masculino">Masculino
+					</label>
+					<label class="escolha">
+						<input type="radio" name="sexo" value="feminino">Feminino
+					</label>
+				</div>
+				<div class="campo">
+					<label for="email">E-mail</label>
+					<input type="text" name="email" id="email">
+				</div>
+				<div class="campo">
+					<label for="telefone">Telefone</label>
+					<input type="text" name="telefone" id="telefone">
+				</div>
+				<fieldset class="grupo">
+					<div class="campo">
+						<label for="cidade">Cidade</label>
+						<input type="text" name="cidade" id="cidade">
+					</div>
+					<div class="campo">
+						<label for="estado">Estado</label>
+						<select name="estado" id="estado">
+							<option value="SP">SP</option>
+							<option value="RJ">RJ</option>
+							<option value="ES">ES</option>
+							<option value="MG">MG</option>
+						</select>
+					</div>
+				</fieldset>
+				<div class="campo">
+					<label for="mensagem">Mensagem</label>
+					<textarea rows="6" cols="30" name="mensagem" id="mensagem"></textarea>
+				</div>
+				<div class="campo">
+					<label>Newsletter</label>
+					<label>
+						<input type="checkbox" name="newsletter" value="1">Gostaria de receber a Newsletter da empresa
+					</label>
+				</div>
+				<button type="submit" class="botao submit">Enviar</button>
+				<button type="reset" class="botao limpar">Limpar</button>
+			</fieldset>
+		
+		</form>
+		
+	</body>
+</html>
